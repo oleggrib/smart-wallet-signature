@@ -2,7 +2,7 @@
 
 import { useAccount, usePublicClient, useSignMessage } from "wagmi";
 import { ConnectButton } from "@rainbow-me/rainbowkit";
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { Hex } from "viem";
 import { SiweMessage } from "siwe";
 
